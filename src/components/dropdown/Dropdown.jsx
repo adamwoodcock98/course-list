@@ -1,9 +1,11 @@
 import React from "react";
 import { toTitleCase } from "../utils";
 
+import './Dropdown.css'
+
 export const Dropdown = ({ options, handleChange, value, handleClear }) => {
   return (
-    <>
+    <div className="dropdown">
       <select
         onChange={handleChange}
         defaultValue=""
@@ -17,6 +19,6 @@ export const Dropdown = ({ options, handleChange, value, handleClear }) => {
         ))}
       </select>
       {value !== "" && <button onClick={handleClear}>Reset</button>}
-    </>
+    </div>
   );
 };

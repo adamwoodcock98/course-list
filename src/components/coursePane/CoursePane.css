@@ -13,3 +13,18 @@
   height: 100%;
   width: 40%;
 }
+
+@media (min-width: 691px) {
+
+}
+
+@media (max-width: 690px) {
+  .pane {
+    flex-direction: column;
+    height: 495px
+  }
+
+  .summary, .topics {
+    width: 100%;
+  }
+}

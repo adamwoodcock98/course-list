@@ -1,0 +1,32 @@
+.dropdown {
+  height: 115px;
+  background-color: var(--slate);
+  margin: 8px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+select {
+  padding: 20px
+}
+
+@media (min-width: 691px) {
+  select {
+    width: 200px;
+  }
+
+  .dropdown {
+    padding-left: 20px
+  }
+}
+
+@media (max-width: 690px) {
+  select {
+    width: 100%;
+  }
+
+  .dropdown {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
