@@ -1,0 +1,15 @@
+.pane {
+  display: flex;
+  height: 260px;
+  border-style: solid;
+}
+
+.summary {
+  height: 100%;
+  width: 60%;
+}
+
+.topics {
+  height: 100%;
+  width: 40%;
+}
