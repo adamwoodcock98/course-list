@@ -26,7 +26,7 @@ describe("Dropdown", () => {
     render(<Dropdown options={options} />);
 
     const dropdownMenu = screen.getByRole("combobox");
-    const capstone = screen.getByRole("option", { name: "capstone" });
+    const capstone = screen.getByRole("option", { name: "Capstone" });
 
     userEvent.selectOptions(dropdownMenu, capstone);
 
