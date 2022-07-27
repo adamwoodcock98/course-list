@@ -1,0 +1,6 @@
+.course-list {
+  width: 66vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}

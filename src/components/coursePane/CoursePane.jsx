@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './CoursePane.css'
+import "./CoursePane.css";
 
-export const CoursePane = ({courseData}) => {
-  return(
+export const CoursePane = ({ courseData }) => {
+  return (
     <div className="pane">
       <div className="summary">
         <h3>Type</h3>
@@ -21,5 +21,5 @@ export const CoursePane = ({courseData}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

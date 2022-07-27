@@ -1,10 +1,10 @@
 import './App.css';
-import { CoursePane } from './components/coursePane/CoursePane';
+import Courses from './pages/Courses';
 
 function App() {
   return (
     <div className="App">
-      <CoursePane />
+      <Courses />
     </div>
   );
 }
