@@ -1,7 +1,7 @@
 import React from "react";
 import { toTitleCase } from "../utils";
 
-import './Dropdown.css'
+import "./Dropdown.css";
 
 export const Dropdown = ({ options, handleChange, value, handleClear }) => {
   return (
@@ -11,7 +11,9 @@ export const Dropdown = ({ options, handleChange, value, handleClear }) => {
         defaultValue=""
         aria-label="Filter courses"
       >
-        <option value="" disabled>Please select</option>
+        <option value="" disabled>
+          Please select
+        </option>
         {options.map((option) => (
           <option value={option} key={option}>
             {toTitleCase(option)}

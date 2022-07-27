@@ -17,8 +17,8 @@ export const CoursePane = ({ courseData }) => {
         <div className="topics-heading">
           <h2>Key Topics & Skills</h2>
         </div>
-        {courseData.topics.map(topic => (
-          <div className="topics-content" key={courseData.id+topic}>
+        {courseData.topics.map((topic) => (
+          <div className="topics-content" key={courseData.id + topic}>
             <p>{topic}</p>
           </div>
         ))}

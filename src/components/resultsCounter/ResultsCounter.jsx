@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import './ResultsCounter.css'
+import "./ResultsCounter.css";
 
-export const ResultsCounter = ({count}) => {
+export const ResultsCounter = ({ count }) => {
   return (
     <div className="count">
       <p>Showing&nbsp;</p>
       <p style={{ fontWeight: "bold" }}>{count}&nbsp;</p>
       <p>results</p>
     </div>
-  )
-}
+  );
+};

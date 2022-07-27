@@ -1,6 +1,6 @@
-import './App.css';
-import Courses from './pages/Courses';
-import { Navbar } from './components';
+import "./App.css";
+import Courses from "./pages/Courses";
+import { Navbar } from "./components";
 
 function App() {
   return (

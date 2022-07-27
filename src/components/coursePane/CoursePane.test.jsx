@@ -4,17 +4,13 @@ import { screen, render } from "@testing-library/react";
 import { CoursePane } from "./CoursePane";
 
 const dummyCourse = {
-  "id": 1,
+  id: 1,
   "course-type": "core",
-  "title": "Marketing Course",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  "topics": [
-    "Topic One",
-    "Topic Two",
-    "Topic Three",
-    "Topic Four"
-  ]
-}
+  title: "Marketing Course",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  topics: ["Topic One", "Topic Two", "Topic Three", "Topic Four"],
+};
 
 describe("CoursePane", () => {
   it("should render course pane component", () => {

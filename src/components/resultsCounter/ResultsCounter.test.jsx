@@ -1,11 +1,11 @@
 import React from "react";
-import { screen, render } from '@testing-library/react'
+import { screen, render } from "@testing-library/react";
 
-import { ResultsCounter } from './ResultsCounter';
+import { ResultsCounter } from "./ResultsCounter";
 
-describe('Results Counter', () => {
-  it('should display a result count', () => {
-    render(<ResultsCounter count={4} />)
+describe("Results Counter", () => {
+  it("should display a result count", () => {
+    render(<ResultsCounter count={4} />);
 
     const prefix = screen.getByText("Showing");
     expect(prefix).toBeInTheDocument();
@@ -15,6 +15,5 @@ describe('Results Counter', () => {
 
     const suffix = screen.getByText("results");
     expect(suffix).toBeInTheDocument();
-
-  })
-})
+  });
+});
