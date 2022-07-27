@@ -1,13 +1,9 @@
 import React from "react";
 
+import { toTitleCase } from "../utils";
 import "./CoursePane.css";
 
 export const CoursePane = ({ courseData }) => {
-
-  const toTitleCase = (string) => {
-    return string.replace(string[0], string[0].toUpperCase());
-  }
-
   return (
     <div className="pane">
       <div className="summary">

@@ -14,8 +14,7 @@ const Courses = () => {
   }
 
   const uniqueOptions = [...new Set(courseData.map(course => course['course-type']))]
-
-  console.log(courseData)
+  
   return (
     <>
       <div className="wide">
