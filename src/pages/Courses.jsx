@@ -11,7 +11,7 @@ const Courses = () => {
   return (
     <div className="course-list">
       {courseData.map(course => (
-        <div className='course-pane'>
+        <div className='course-pane' key={course.id+course.title}>
           <CoursePane courseData={course} />
         </div>
       ))}
