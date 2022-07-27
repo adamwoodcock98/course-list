@@ -1,6 +1,5 @@
 .pane {
   display: flex;
-  box-shadow: 0px 4px 6px lightgray;
 }
 
 .summary {
