@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { CoursePane } from "../components/coursePane/CoursePane";
-import { Dropdown } from "../components/dropdown/Dropdown";
-import { Header } from "../components/header/Header";
+import { CoursePane, Header, Dropdown } from "../components";
 
 import "./Courses.css";
 
