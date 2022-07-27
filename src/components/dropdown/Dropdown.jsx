@@ -8,7 +8,7 @@ export const Dropdown = ({ options, handleChange, value, handleClear }) => {
     <div className="dropdown">
       <select
         onChange={handleChange}
-        defaultValue=""
+        value={value}
         aria-label="Filter courses"
       >
         <option value="" disabled>
