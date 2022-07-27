@@ -1,6 +1,9 @@
-.course-list {
+.wide {
   width: 66vw;
   margin: auto;
+}
+
+.course-list {
   display: flex;
   flex-direction: column;
 }
