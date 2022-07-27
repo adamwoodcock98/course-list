@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CoursePane, Header, Dropdown } from "../components";
+import { CoursePane, Header, Dropdown, ResultsCounter } from "../components";
 
 import "./Courses.css";
 
@@ -44,6 +44,9 @@ const Courses = () => {
           handleChange={handleChange}
           handleClear={handleClear}
         />
+      </div>
+      <div className="wide">
+        <ResultsCounter count={courses.length} />
       </div>
       <div className="course-list wide">
         {courses.map((course) => (
