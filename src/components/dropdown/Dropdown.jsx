@@ -5,7 +5,6 @@ export const Dropdown = ({ options, handleChange, value, handleClear }) => {
   return (
     <>
       <select
-        value={value}
         onChange={handleChange}
         defaultValue=""
         aria-label="Filter courses"
