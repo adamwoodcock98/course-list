@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CoursePane } from "../components/coursePane/CoursePane";
 import { Dropdown } from "../components/dropdown/Dropdown";
+import { Header } from "../components/header/Header";
 
 import "./Courses.css";
 
@@ -31,6 +32,13 @@ const Courses = () => {
 
   return (
     <>
+      <div className="wide">
+        <Header
+          path="Hult / Courses"
+          title="Courses"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        />
+      </div>
       <div className="wide">
         <Dropdown
           options={uniqueOptions}
